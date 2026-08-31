@@ -139,6 +139,12 @@ section{ padding:64px 0; }
 .demo-choice .ptag{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--amber); }
 .demo-choice h3{ color:var(--white); font-size:19px; margin:6px 0 10px; }
 .demo-choice p{ color:#C7D8DC; font-size:13.5px; margin:0 0 18px; max-width:none; }
+.demo-tip{
+  margin-top:24px; text-align:left; font-size:13.5px; line-height:1.5; color:#C7D8DC;
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.18); border-radius:10px;
+  padding:16px 20px;
+}
+.demo-tip strong{ color:var(--white); }
 
 /* ---------- footer ---------- */
 footer{ background:var(--ink); color:#B9CFCB; padding:40px 0; }
@@ -315,9 +321,9 @@ footer{ background:var(--ink); color:#B9CFCB; padding:40px 0; }
         <div class="demo-choice">
           <div class="ptag">Jen se podívat</div>
           <h3>Demo appka</h3>
-          <p>Předvyplněná appka s ukázkovými výpravami a úlovky — appku si jen prohlédneš, nic v ní neuložíš.</p>
+          <p>Předvyplněná appka s ukázkovými výpravami a úlovky — appku si jen prohlédneš, nic v ní neuložíš. Appka tě pustí dovnitř rovnou, žádné přihlašování.</p>
           <a class="btn btn-amber" href="https://nahodit.vercel.app?invite=NAHODIT2026">Otevřít demo</a>
-          <span class="mono" style="font-size:11.5px; color:#9FB4C0; display:block; margin-top:12px;">Kód se předvyplní sám, jen ho po přihlášení potvrď</span>
+          <span class="mono" style="font-size:11.5px; color:#9FB4C0; display:block; margin-top:12px;">Appka tě pustí dovnitř sama, není potřeba nic zadávat</span>
         </div>
         <div class="demo-choice">
           <div class="ptag">Chci appku zkusit sám</div>
@@ -326,6 +332,9 @@ footer{ background:var(--ink); color:#B9CFCB; padding:40px 0; }
           <a class="btn btn-ghost" style="border-color:var(--amber); color:var(--amber);" href="https://nahodit.vercel.app">Založit appku</a>
           <span class="mono" style="font-size:11.5px; color:#9FB4C0; display:block; margin-top:12px;">Po přihlášení zvol „Založit skupinu"</span>
         </div>
+      </div>
+      <div class="demo-tip">
+        🔑 <strong>U vlastní appky si hned po založení nastav heslo</strong> (appka → ⚙️ Nastavení). Appka se jinak umí přihlásit jen přes odkaz v e-mailu — a appka na ploše telefonu si to přihlášení ne vždy pamatuje. S heslem se pak přihlásíš přímo, bez čekání na nový e-mail pokaždé, když appku na ploše otevřeš. Demo appka tohle řešit nemusíš — ta tě pustí dovnitř automaticky, pokaždé znovu.
       </div>
     </div>
   </div>
